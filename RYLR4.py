@@ -7,7 +7,7 @@ def sum_of_n_digit_numbers(n, k):
     
     total_sum = 0
     
-    for num in range(start, end + 1):
+    for num in range(start, end + 1): # Ершов Родион. Четкий код 
         if num % k == 0:
             total_sum += num
     
